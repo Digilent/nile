@@ -16,4 +16,5 @@ repos:
   meta-xilinx:
     url: "https://github.com/Xilinx/meta-xilinx.git"
     path: "layers/meta-xilinx"
-    branch: "scarthgap"
+    branch: "rel-v2026.1"
+    # branch: "scarthgap"
