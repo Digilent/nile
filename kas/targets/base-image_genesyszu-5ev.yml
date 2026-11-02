@@ -1,0 +1,18 @@
+header:
+  version: 19
+  includes:
+    - kas/includes/base-config.yml
+    - kas/machines/genesyszu-5ev.yml
+
+target:
+  - base-image
+
+artifacts:
+  "Image.bin": "tmp/deploy/images/genesyszu-5ev/Image-genesyszu-5ev.bin"
+  "boot.bin": "tmp/deploy/images/genesyszu-5ev/boot.bin"
+  "boot.scr": "tmp/deploy/images/genesyszu-5ev/boot.scr"
+  "base-image-genesyszu-5ev.rootfs.cpio.gz.u-boot": "tmp/deploy/images/genesyszu-5ev/base-image-genesyszu-5ev.rootfs.cpio.gz.u-boot"
+  "base-image-genesyszu-5ev.rootfs.tar.gz": "tmp/deploy/images/genesyszu-5ev/base-image-genesyszu-5ev.rootfs.tar.gz"
+  "base-image-genesyszu-5ev.rootfs.qemuboot.conf": "tmp/deploy/images/genesyszu-5ev/base-image-genesyszu-5ev.rootfs.qemuboot.conf"
+  "base-image-genesyszu-5ev.wic": "tmp/deploy/images/genesyszu-5ev/base-image-genesyszu-5ev.rootfs.wic"
+  "system.dtb": "tmp/deploy/images/genesyszu-5ev/system.dtb"

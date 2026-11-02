@@ -1,0 +1,26 @@
+header:
+  version: 19
+overrides:
+  repos:
+    bitbake:
+      commit: 8dcf084522b9c66a6639b5f117f554fde9b6b45a
+    meta-amd-adaptive-socs:
+      commit: 6b7eef28e7277e43bc01d8e0f1a0445923fb74a3
+    meta-arm:
+      commit: 23b572c40ea6709ab3f8bd7abbb5a795fc3631c2
+    meta-digilent-bsp:
+      commit: e1457902c645ca954f28e6ff9fc60a5348555159
+    meta-digilent:
+      commit: 34cdda1060207c94c31bde8cca15c63d69157401
+    meta-openamp:
+      commit: e44e4a3b4abe9cc5fdfe75c43181ba82750f6865
+    meta-openembedded:
+      commit: 7eb94107580092f79ff1b639a87762fe6f96aa12
+    meta-virtualization:
+      commit: f851f730ec415d266bfe0c5941c228a63a896298
+    meta-xilinx:
+      commit: 469da91f6031bcf5b5ac0e54ed2eb2361baa01e3
+    meta-xilinx-tools:
+      commit: 94fea5f042e34522e9caf70c134817a046ca7e08
+    openembedded-core:
+      commit: 8aca19cff468c5f15c919c973c46be58e020af46
